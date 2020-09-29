@@ -15,4 +15,8 @@
   .vid {
     width: 30%;
   }
+
+  .work-section h1 {
+    font-size: 2rem;
+  }
 }

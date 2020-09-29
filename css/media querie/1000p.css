@@ -15,4 +15,8 @@
   .content {
     margin-top: 100px;
   }
+
+  .card-group .card {
+    margin: 30px 100px !important;
+  }
 }

@@ -1,0 +1,9 @@
+@media only screen and (max-width: 1200px) {
+  .card-group {
+    flex-direction: column !important;
+  }
+
+  .card-group .card {
+    margin: 30px 180px !important;
+  }
+}

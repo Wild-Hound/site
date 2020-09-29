@@ -2,4 +2,11 @@
   .side-bar {
     display: none;
   }
+
+  .work-section h1 {
+    font-size: 1.5rem;
+  }
+  .card-group .card {
+    margin: 30px 60px !important;
+  }
 }

@@ -10,15 +10,19 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  display: flex;
   position: relative;
   /* background-image: linear-gradient(to bottom, #282c2d 20%, #171717);
   background-repeat: no-repeat; */
   height: 100vh;
 }
 
+.sec {
+  display: flex;
+  height: 100vh;
+}
+
 .gap {
-  width: 300px;
+  min-width: 300px;
 }
 
 .main-section {
