@@ -1,0 +1,5 @@
+1-Home(youtube, github, CV)
+2-My Works
+3-Who Am I
+4-About Me
+5-Contact(top-map+bot-color+overlay-with info)

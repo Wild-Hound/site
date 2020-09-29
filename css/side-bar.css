@@ -1,0 +1,54 @@
+:root {
+  --color-grey-sec: #a8a7a5;
+  --color-grey-pri: #e8e6e3;
+}
+
+.side-bar {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #282c2d 20%, #171717);
+  position: fixed;
+  width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  margin-top: 30px;
+  color: var(--color-grey-pri);
+}
+
+.menu {
+  margin-top: 60px;
+}
+
+.menu ul li {
+  margin-bottom: 20px;
+}
+.menu ul li a {
+  color: var(--color-grey-sec);
+  opacity: 0.515;
+  font-size: 1.5rem;
+}
+
+.menu ul li a:hover {
+  color: white;
+}
+
+.mail {
+  margin-top: auto;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.mail p {
+  color: var(--color-grey-pri);
+  font-size: 1.1rem;
+}
+.mail .e {
+  margin-top: 1rem;
+  color: var(--color-grey-pri);
+  border: 1px solid white;
+  font-size: 1rem;
+}
