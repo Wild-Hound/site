@@ -49,6 +49,7 @@ body {
   background-color: #171717;
   display: flex;
   align-items: center;
+  width: 40%;
 }
 
 .vid video {
