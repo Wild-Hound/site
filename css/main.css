@@ -37,6 +37,7 @@ body {
 }
 .main-section .content {
   box-sizing: content-box;
+  margin-top: 160px;
   margin-left: 30px;
   padding: 0 40px;
   background-image: url("../images/Layer\ 0.png");
