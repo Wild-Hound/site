@@ -1,0 +1,73 @@
+.who-bg {
+  background-image: linear-gradient(to bottom, #282c2d 20%, #171717);
+}
+
+.slice-group {
+  margin: 80px 0;
+}
+
+.slice {
+  width: 60%;
+  height: 25vh;
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  background-image: linear-gradient(to right, #6441a5, #2a0845);
+}
+
+.gra-left {
+  background-image: linear-gradient(to left, #6441a5, #2a0845);
+}
+
+.head {
+  width: 35%;
+  height: 100%;
+  background-color: #212324;
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+.ava {
+  height: 100%;
+  width: 80%;
+  background-image: url("../images/bear-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.clip-left {
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+
+.who-text {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.img-2 {
+  background-image: url("../images/bear-2.png");
+}
+
+.img-3 {
+  background-image: url("../images/bear-3.png");
+}
+
+.img-4 {
+  background-image: url("../images/bear-4.png");
+}
+
+.text-content {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  color: white;
+  width: 50%;
+}
+
+.text-left-cus {
+  margin-left: auto;
+  padding-left: 144px;
+  box-sizing: content-box;
+}

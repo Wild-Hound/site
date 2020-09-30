@@ -32,4 +32,8 @@
   .card-group .card {
     margin: 30px 0 !important;
   }
+
+  .text-left-cus {
+    padding-left: 50px;
+  }
 }

@@ -19,4 +19,9 @@
   .work-section h1 {
     font-size: 2rem;
   }
+
+  .slice {
+    width: 80%;
+    margin-top: 40px;
+  }
 }

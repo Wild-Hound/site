@@ -9,4 +9,16 @@
   .card-group .card {
     margin: 30px 60px !important;
   }
+
+  .slice .text-content h3 {
+    font-size: 1.5rem;
+  }
+
+  .slice .text-content p {
+    font-size: 0.8rem;
+  }
+
+  .navbar {
+    display: flex !important;
+  }
 }
