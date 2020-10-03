@@ -6,4 +6,8 @@
   .card-group .card {
     margin: 30px 180px !important;
   }
+
+  .con {
+    left: 63%;
+  }
 }

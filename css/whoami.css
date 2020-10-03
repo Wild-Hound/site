@@ -71,3 +71,15 @@
   padding-left: 144px;
   box-sizing: content-box;
 }
+
+.feat-text {
+  display: inline-block;
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.cus-mr-auto {
+  display: inline-block;
+  margin-left: auto;
+}

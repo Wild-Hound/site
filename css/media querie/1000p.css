@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1100px) {
+  .con {
+    left: 65%;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   .main-section {
     flex-direction: column;
@@ -39,5 +45,9 @@
 
   .mail p {
     font-size: 1rem;
+  }
+
+  .con {
+    left: 60%;
   }
 }

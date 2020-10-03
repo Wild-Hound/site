@@ -11,7 +11,7 @@
   }
 
   .slice .text-content h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .slice .text-content p {
@@ -20,5 +20,18 @@
 
   .navbar {
     display: flex !important;
+  }
+
+  .con {
+    opacity: 0.5;
+    width: 90%;
+  }
+
+  .head {
+    clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
+  }
+
+  .clip-left {
+    clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 15% 100%, 0% 50%);
   }
 }
