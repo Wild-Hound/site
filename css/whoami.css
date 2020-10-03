@@ -20,14 +20,14 @@
 .head {
   width: 35%;
   height: 100%;
-  background-color: #212324;
+  background-color: whitesmoke;
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
 .ava {
   height: 100%;
   width: 80%;
-  background-image: url("../images/bear-1.png");
+  background-image: url("../images/wordpress-brands.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -47,15 +47,15 @@
 }
 
 .img-2 {
-  background-image: url("../images/bear-2.png");
+  background-image: url("../images/css-code.svg");
 }
 
 .img-3 {
-  background-image: url("../images/bear-3.png");
+  background-image: url("../images/react-brands.svg");
 }
 
 .img-4 {
-  background-image: url("../images/bear-4.png");
+  background-image: url("../images/ui-design.svg");
 }
 
 .text-content {

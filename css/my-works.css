@@ -1,15 +1,24 @@
 .sec-sec {
   text-align: center;
-  margin-top: 50px;
+  padding-top: 50px;
   width: 100%;
 }
 
 .heading-1 {
   display: inline-block;
   padding-bottom: 5px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
 }
 
 .card-group .card {
   margin: 0 10px;
+}
+
+.work-section {
+  background-color: #282c2d;
+  color: white;
+}
+
+.card {
+  color: #6c757d;
 }
