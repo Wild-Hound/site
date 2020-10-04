@@ -16,7 +16,6 @@ body {
   position: relative;
   /* background-image: linear-gradient(to bottom, #282c2d 20%, #171717);
   background-repeat: no-repeat; */
-  overflow-x: hidden;
 }
 
 .h-100 {

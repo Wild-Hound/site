@@ -10,7 +10,7 @@
   width: 60%;
   height: 25vh;
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-  background-image: linear-gradient(to right, #6441a5, #2a0845);
+  background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 }
 
 .head {
@@ -80,4 +80,5 @@
   height: 20vh;
   margin-top: -10px;
   background-color: #111111;
+  border-top: 8px solid #1f2121;
 }

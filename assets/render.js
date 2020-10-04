@@ -2,8 +2,8 @@ var app;
 
 function initPixi() {
   app = new PIXI.Application({
-    width: window.innerWidth,
-    height: window.innerHeight,
+    width: document.getElementById("can").offsetWidth,
+    height: document.getElementById("can").offsetHeight,
   });
   var image = new PIXI.Sprite.from("../images/back.jfif");
   image.width = window.innerWidth;
@@ -15,7 +15,7 @@ function initPixi() {
   displacementSprite.texture.baseTexture.wrapMode = PIXI.WRAP_MODES.REPEAT;
   app.stage.addChild(displacementSprite);
   app.stage.filters = [displacementFilter];
-  document.body.appendChild(app.view);
+  document.getElementById("can").appendChild(app.view);
   animate();
 }
 
