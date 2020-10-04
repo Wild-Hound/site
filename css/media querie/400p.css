@@ -39,4 +39,23 @@
   .con {
     width: 100%;
   }
+
+  .slice {
+    flex-direction: column !important;
+    clip-path: none;
+    height: 30vh;
+  }
+
+  .head {
+    clip-path: none;
+    width: 100%;
+  }
+
+  .ava {
+    width: 100%;
+  }
+  .text-content {
+    width: 100%;
+    padding: 20px 10px;
+  }
 }

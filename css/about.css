@@ -1,5 +1,5 @@
 #particles-js {
-  height: 100vh;
+  height: 100vh !important;
   width: 100%;
   position: relative;
   background-image: linear-gradient(to bottom, #1e2021, #111111);
