@@ -13,10 +13,6 @@
   background-image: linear-gradient(to right, #6441a5, #2a0845);
 }
 
-.gra-left {
-  background-image: linear-gradient(to left, #6441a5, #2a0845);
-}
-
 .head {
   width: 35%;
   height: 100%;
@@ -31,10 +27,6 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.right {
-  margin-left: auto;
 }
 
 .clip-left {

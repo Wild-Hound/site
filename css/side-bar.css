@@ -60,3 +60,7 @@
 .navbar {
   position: absolute;
 }
+
+.hvr-underline-from-left:before {
+  background: var(--color-grey-sec) !important;
+}
