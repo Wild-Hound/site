@@ -2,7 +2,7 @@
   height: 100vh;
   width: 100%;
   position: relative;
-  background-image: linear-gradient(to right, hsl(198, 44%, 11%), #2c3e50);
+  background-image: linear-gradient(to bottom, #1e2021, #111111);
 }
 
 .con {
