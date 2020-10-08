@@ -29,8 +29,8 @@ function initPixi() {
 }
 
 function animate() {
-  displacementSprite.x += 3;
-  displacementSprite.y += 3;
+  displacementSprite.x += 2;
+  displacementSprite.y += 4;
   requestAnimationFrame(animate);
 }
 

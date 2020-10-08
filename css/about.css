@@ -38,8 +38,26 @@ canvas {
   margin-right: auto;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  color: white;
+  overflow-y: scroll;
 }
 
+.bio::-webkit-scrollbar {
+  width: 10px;
+}
+
+.bio::-webkit-scrollbar-button {
+  display: none;
+}
+
+.bio::-webkit-scrollbar-track-piece {
+  background-color: #31313a;
+}
+
+.bio::-webkit-scrollbar-thumb {
+  background-color: #4d5457;
+  border-radius: 20px;
+}
 .profile .picture {
   height: 50%;
   clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 48% 100%, 0 90%);
@@ -62,22 +80,32 @@ canvas {
   margin-top: auto;
   display: flex;
   border-top: 1px solid rgba(255, 255, 255, 0.35);
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 .profile .button-group a {
   padding: 20px 0;
   display: inline-block;
-  width: 50%;
+  width: 100%;
   text-align: center;
   color: white;
 }
 
-.profile .button-group a:nth-child(1) {
-  border-right: 1px solid rgba(255, 255, 255, 0.35);
+.profile .button-group a::before {
+  background-color: #31313a;
 }
 
-.bio {
-  color: white;
+.hvr-rectangle-in {
+  background-color: #203a43 !important;
+}
+
+.profile .button-group a:hover {
+  background-color: #203a43;
+}
+
+.profile .button-group a:nth-child(1) {
+  border-right: 1px solid rgba(255, 255, 255, 0.35);
 }
 
 .bio h3 {
@@ -87,6 +115,7 @@ canvas {
 
 .bio p {
   padding: 15px 25px;
+  font-size: 1.3rem;
 }
 
 .loc {
