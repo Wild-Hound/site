@@ -23,8 +23,32 @@
   }
 
   .con {
-    opacity: 0.5;
-    width: 90%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+  }
+
+  .bio,
+  .profile {
+    width: 100%;
+    height: 60%;
+  }
+
+  .self-info h1 {
+    font-size: 2rem;
+  }
+
+  .profile .button-group a {
+    padding: 10px 0;
+  }
+
+  .bio h3 {
+    font-size: 1.3rem;
+  }
+
+  .profile .button-group {
+    display: none;
   }
 
   .head {

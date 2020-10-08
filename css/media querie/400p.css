@@ -58,4 +58,19 @@
     width: 100%;
     padding: 20px 10px;
   }
+
+  .con-info {
+    width: 90%;
+    height: 80vh;
+    top: 60%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .con-c {
+    width: 80%;
+  }
+  .con-c h3 {
+    font-size: 1.45rem;
+    line-height: 35px;
+  }
 }

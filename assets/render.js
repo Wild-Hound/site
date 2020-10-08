@@ -16,12 +16,13 @@ function initPixi() {
   app.stage.addChild(displacementSprite);
   app.stage.filters = [displacementFilter];
   document.getElementById("can").appendChild(app.view);
+
   animate();
 
   window.addEventListener("resize", function () {
     var x = document.querySelectorAll("canvas");
-    console.log(x[1]);
     x[1].setAttribute("width", document.getElementById("can").offsetWidth);
+    image.width = document.getElementById("can").offsetWidth;
   });
 }
 

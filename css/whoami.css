@@ -15,6 +15,7 @@
 
 .head {
   width: 35%;
+  min-height: 10vh;
   height: 100%;
   background-color: whitesmoke;
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
@@ -77,8 +78,109 @@
 }
 
 .footer {
-  height: 20vh;
   margin-top: -10px;
   background-color: #111111;
   border-top: 8px solid #1f2121;
+  color: white;
+}
+
+#can {
+  position: relative;
+}
+
+.con-info {
+  width: 50%;
+  height: 50vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.215),
+      rgba(255, 255, 255, 0.215)
+    ),
+    url("../images/con-back.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-40%) translateY(-50%);
+}
+
+.con-c {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  justify-content: space-around;
+  color: white;
+  padding: 30px 0;
+}
+
+.con-c button {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 10px 0;
+  letter-spacing: 3px;
+}
+
+.con-c button:hover {
+  background-color: rgb(0, 179, 0);
+}
+
+.con-c input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid green;
+  line-height: 30px;
+  color: white;
+}
+
+.con-c input:hover,
+.con-c input:focus,
+.con-c textarea:hover,
+.con-c textarea:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(0, 179, 0);
+}
+
+.con-c textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid green;
+  line-height: 30px;
+  color: white;
+}
+
+.fot-details {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px 50px;
+  padding-bottom: 0;
+}
+
+.footer a {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.footer a:hover {
+  color: rgb(0, 179, 0);
+  border-bottom: 1px solid rgb(0, 179, 0);
+}
+.num {
+  margin-bottom: 0;
+}
+
+.num:hover {
+  cursor: pointer;
+  color: rgb(0, 179, 0);
+  border-bottom: 1px solid rgb(0, 179, 0);
+}
+
+.right-text {
+  margin-top: auto;
 }
