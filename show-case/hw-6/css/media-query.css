@@ -1,0 +1,223 @@
+@media only screen and (max-width: 991px) {
+  .feat {
+    padding: 0 20px;
+  }
+  .feat .card .card-content {
+    padding: 20px;
+    padding-left: 0;
+  }
+
+  .feat .card .card-img i {
+    padding: 30px;
+    font-size: 4rem;
+  }
+  .feat .card .card-content * {
+    line-height: 25px;
+    font-size: 0.8rem;
+  }
+  .pitch {
+    padding: 100px 0;
+    padding-top: 100px;
+    padding-top: 0;
+  }
+
+  .pitch .con h2 {
+    font-size: 2rem;
+  }
+
+  .pitch .con p {
+    font-size: 1rem;
+  }
+
+  .secondary-sec-con .con h2 {
+    font-size: 2rem;
+  }
+
+  .secondary-sec-con .con * {
+    width: 80%;
+  }
+  .banner h2 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .head-body .con h1 {
+    font-size: 6rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .logo {
+    font-size: 1.5rem;
+  }
+  .head-bar .button button {
+    padding: 5px 10px;
+  }
+  .nav ul li {
+    font-size: 0.8rem;
+  }
+  .head-body .con h1 {
+    font-size: 5rem;
+  }
+  .head-bar .button button {
+    padding: 8px 15px;
+  }
+  .news-letter input {
+    font-size: 0.9rem;
+  }
+  .feat {
+    flex-direction: column;
+  }
+  .feat .card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .news-letter input {
+    padding: 7px;
+    font-size: 0.7rem;
+  }
+
+  .news-letter button {
+    padding: 7px;
+  }
+  .card-sec {
+    flex-direction: column;
+  }
+  .card {
+    width: 60%;
+    margin: 0 auto 60px auto;
+  }
+
+  .secondary-sec-con .con {
+    width: 80%;
+  }
+  .secondary-sec-con .con * {
+    width: 100%;
+  }
+
+  .info-bg .con {
+    flex-direction: column;
+  }
+
+  .info-bg .con .info {
+    flex-direction: column;
+  }
+
+  .news-letter {
+    padding: 0px 30px;
+  }
+
+  .info-bg .con .info .about-us,
+  .info-bg .con .info .recent-updates,
+  .info-bg .con .info .instgram {
+    width: 90%;
+  }
+  .news-letter input {
+    width: 100%;
+  }
+
+  .holder {
+    border: none;
+  }
+
+  .holder .con {
+    border-bottom: 1px solid #ececec;
+    line-height: 20px;
+    font-size: 0.7rem;
+  }
+
+  .holder .con p {
+    font-size: 0.8rem;
+  }
+
+  .head-bar {
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+  }
+
+  .head-bar .nav {
+    margin: auto;
+  }
+
+  .logo {
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px 0;
+  }
+
+  .head-bar .button {
+    margin: auto;
+  }
+  .banner h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .head-body .con h1 {
+    font-size: 4rem;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .head-bar {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .head-body .con h1 {
+    font-size: 3rem;
+  }
+
+  .head-body .con .sub {
+    font-size: 1rem;
+  }
+
+  .pitch .con h2 {
+    font-size: 1.5rem;
+  }
+
+  .pitch .con p {
+    font-size: 0.8rem;
+  }
+
+  .secondary-sec-con .con h2 {
+    font-size: 1.5rem;
+  }
+
+  .banner h2 {
+    font-size: 1.2rem;
+  }
+
+  .head-body .con .action {
+    padding: 10px 25px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .holder .con p {
+    font-size: 0.7rem;
+    line-height: 20px;
+  }
+
+  .card {
+    width: 95%;
+  }
+
+  .end .con .social i {
+    margin: 0;
+  }
+
+  .card-sec {
+    padding: 80px 0;
+  }
+  .head-bar {
+    width: 80%;
+  }
+}

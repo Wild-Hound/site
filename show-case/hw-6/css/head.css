@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+
+.nav ul li a {
+  font-family: "Roboto", sans-serif;
+}
+/* head-bar */
+.head {
+  background-image: url("../images/landing-10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.head {
+  width: 100%;
+  height: 90vh;
+}
+.row {
+  max-width: 1140px;
+  margin: auto;
+  padding: 20px;
+}
+
+.head-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.head-bar .nav {
+  margin-right: auto;
+}
+.head-bar .button {
+  margin-left: auto;
+}
+.head-bar .button button {
+  padding: 10px 25px;
+  margin: 0px 10px;
+}
+
+.head-bar .button .transparent {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.head-bar .button .transparent:hover {
+  border: 2px solid rgba(255, 255, 255, 1);
+}
+
+.head-bar .button .primary {
+  background-color: #4890e7;
+  color: white;
+  border: 1px solid #4890e7;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.head-bar .button .primary:hover {
+  background-color: #609de6;
+  border: 2px solid #609de6;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav ul li {
+  font-size: 0.95rem;
+  display: inline-block;
+  padding: 10px 5px;
+}
+.nav ul li:hover {
+  font-size: 1rem;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: rgb(235, 235, 235);
+}
+.nav ul li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+}
+
+/* head-body */
+.head-body {
+  width: 100%;
+}
+
+.head-body .con {
+  max-width: 1140px;
+  padding: 20vh 0;
+  margin: auto;
+  top: 50%;
+}
+
+.head-body .con h1,
+.head-body .con p,
+.head-body .con a {
+  text-align: center;
+  color: white;
+}
+
+.head-body .con h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 7rem;
+  transform: rotate(-5deg);
+  margin-bottom: 10px;
+}
+.head-body .con .sub {
+  font-size: 1.5rem;
+  padding: 15px;
+}
+
+.head-body .con .action {
+  font-weight: 600;
+  padding: 15px 35px;
+  color: white;
+  background-color: #4890e7;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #4890e7;
+  margin: 20px;
+}
+
+.head-body .con .action:hover {
+  background-color: #609de6;
+  border: 2px solid #609de6;
+}
+
+.holder {
+  width: 100%;
+  height: 8vh;
+  border-bottom: 1px solid #ececec;
+}
+
+.holder .con {
+  max-width: 1140px;
+  margin: auto;
+  padding: 30px;
+}
+
+.holder .con p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.holder .con p span {
+  padding: 5px 25px;
+  color: white;
+  background-color: #31639c;
+  border-radius: 20px;
+  margin: 0 10px;
+}

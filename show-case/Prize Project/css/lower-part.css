@@ -1,0 +1,186 @@
+.sec-10 {
+  background-image: url("../images/New\ folder/Rectangle 6.png");
+  height: 690px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: white;
+}
+
+.sec-10 .content-8 {
+  padding: 100px 0;
+}
+
+.sec-10 .content-8 h2 {
+  font-weight: 600;
+  margin-bottom: 70px;
+}
+.sec-10 .content-8 .hold {
+  height: 355px;
+  width: 85%;
+  background-color: rgba(255, 255, 255, 0.4);
+
+  margin: auto;
+}
+
+.cen {
+  padding: 0 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  order: 2;
+}
+.cen .compon {
+  width: 40%;
+  margin-top: 55px;
+}
+
+.bor-bt {
+  padding: 5px 10px;
+  display: inline-block;
+  border-bottom: 3px solid #4d4c4b;
+}
+
+.content-9 {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  padding: 100px 0;
+}
+
+.content-9 .x-3 {
+  margin-bottom: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-9 .x-3 img {
+  width: 48%;
+}
+.content-9 .x-3 .text-con {
+  text-align: center;
+  padding: 0 70px;
+  width: 48%;
+}
+
+.content-9 .x-3 .text-con h3 {
+  margin-bottom: 55px;
+}
+
+.content-9 .x-3 .text-con p {
+  line-height: 33px;
+}
+
+.sec-12 {
+  padding: 75px 0;
+  background-color: #efefef;
+}
+
+.content-10 {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.x-4 {
+  border-left: 5px solid black;
+  padding-left: 20px;
+}
+
+.x-4 h5 {
+  font-weight: 600;
+}
+
+.sec-13 {
+  text-align: center;
+  padding: 75px 0;
+}
+
+.sec-13 .icon {
+  margin-bottom: 55px;
+}
+
+.sec-13 .pro-pic {
+  margin-bottom: 40px;
+}
+
+.sec-13 .disc {
+  padding: 0 170px;
+  font-size: 20px;
+  line-height: 38px;
+}
+
+.sec-13 .lo {
+  font-weight: 600;
+}
+
+.sec-14 {
+  background-color: #212121;
+  color: #999999;
+  padding: 75px 0;
+}
+
+.content-11 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-11 a {
+  color: #999999;
+}
+
+.content-11 .contact-area {
+  width: 440px;
+}
+
+.content-11 h4,
+.content-11 h5 {
+  margin-bottom: 35px;
+  color: white;
+}
+
+.content-11 input,
+.content-11 textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #474747;
+  color: white;
+}
+
+.content-11 input::placeholder,
+.content-11 textarea::placeholder {
+  color: #999999;
+}
+
+.content-11 .gap {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.ln-sc-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ln-sc-2 p {
+  width: 435px;
+}
+
+.ln-sc-2 ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.ln-sc-2 ul li a {
+  color: #999999;
+}
+
+.links-ar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.links-ar div {
+  margin: 0 20px;
+}

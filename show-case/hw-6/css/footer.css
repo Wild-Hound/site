@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+.info-bg {
+  width: 100%;
+  background-color: #252525;
+}
+
+.info-bg .con {
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  padding: 120px 0 50px 0;
+}
+
+.info-bg .con .info {
+  display: flex;
+}
+
+.info-bg .con .info .about-us,
+.info-bg .con .info .recent-updates,
+.info-bg .con .info .instgram {
+  width: 30%;
+  color: white;
+  padding: 0px 30px;
+}
+
+.info-bg .con .info .recent-updates .update {
+  margin-bottom: 20px;
+}
+
+.info-bg .con .info .recent-updates .update p i {
+  margin-right: 10px;
+}
+.info-bg .con .info .about-us h6,
+.info-bg .con .info .recent-updates h6,
+.info-bg .con .info .instgram h6 {
+  font-size: 0.857rem;
+  line-height: 3rem;
+  margin-bottom: 20px;
+}
+
+.info-bg .con .info .about-us p,
+.info-bg .con .info .recent-updates p,
+.info-bg .con .info .instgram p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+  color: #ececec;
+  line-height: 25px;
+}
+
+.news-letter h6 {
+  color: white;
+  font-size: 0.857rem;
+  line-height: 3rem;
+  margin-bottom: 20px;
+}
+
+.news-letter input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.news-letter button {
+  font-size: 0.7rem;
+  font-weight: 600;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #4a90e2;
+}
+
+.news-letter button:hover {
+  background-color: #609de6;
+  cursor: pointer;
+}
+
+.news-letter input:focus {
+  outline: 1px solid #609de6;
+}
+
+.end {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.end .con {
+  max-width: 1140px;
+  margin: auto;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.end .con p {
+  font-size: 0.8rem;
+  color: darkgray;
+}
+
+.end .con .social i {
+  margin: 0 15px;
+}
+
+.end .con .social i:hover {
+  cursor: pointer;
+}
+
+.news-letter {
+  padding-right: 20px;
+}

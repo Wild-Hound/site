@@ -1,0 +1,108 @@
+@media only screen and (max-width: 750px) {
+  .x-3 {
+    flex-direction: column;
+  }
+
+  .col-re {
+    flex-direction: column-reverse;
+  }
+
+  .content-9 .x-3 .text-con {
+    padding: 0;
+    width: 85%;
+  }
+
+  .content-9 .x-3 img {
+    width: 85%;
+  }
+
+  .cen {
+    padding: 0;
+  }
+  .sec-10 .content-8 .hold {
+    height: 100%;
+    padding-bottom: 55px;
+  }
+
+  .sec-8 .content-6 p {
+    padding: 0;
+  }
+
+  .sec-7 .container p {
+    padding: 0;
+  }
+  .sec-6 .container li {
+    margin: 0 10px;
+  }
+
+  .portfolio p {
+    padding: 0;
+  }
+
+  .content-4 p {
+    padding: 0;
+  }
+  .content-3 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .x-1 {
+    margin-bottom: 20px;
+  }
+
+  .sec-2 .content-2 {
+    padding: 85px 0;
+  }
+  .sec-2 .content-2 p {
+    padding: 0;
+  }
+
+  .content {
+    width: 100%;
+    text-align: center;
+  }
+
+  #content-heading {
+    font-size: 55px;
+  }
+
+  .feat-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-1,
+  .img-2,
+  .img-3 {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+  }
+
+  .sec-6 .container ul {
+    padding: 0;
+  }
+
+  .content-10 {
+    flex-direction: column;
+  }
+
+  .x-4 {
+    display: inline-block;
+    border-left: none;
+    border-bottom: 5px solid black;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .sec-13 .disc {
+    padding: 0;
+  }
+
+  .content-11 {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+  --color-primary: #6785ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-bar,
+.nav-bar .nav-links,
+.nav-bar .nav-links ul,
+.nav-bar .contact {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Muli", sans-serif;
+}
+
+.nav-bar {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav-bar .nav-links img {
+  padding: 25px;
+}
+
+.nav-bar .nav-links ul li {
+  padding: 30px 25px;
+  font-size: 1.1rem;
+}
+
+.nav-bar .contact .num {
+  padding: 0 50px;
+  font-size: 1.4rem;
+}
+
+.nav-bar .contact .appointment {
+  height: 100%;
+  box-sizing: border-box;
+  padding: 30px;
+  background-color: var(--color-primary);
+  font-size: 1.1rem;
+  color: white;
+}
+
+.call,
+.icon {
+  color: var(--color-primary);
+}
+
+.call {
+  padding-left: 10px;
+}
+.icon {
+  padding: 0 10px;
+  border-right: 2px solid #eeeeee;
+}

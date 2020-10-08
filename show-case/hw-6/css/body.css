@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+.main-sec-con * {
+  font-family: "Open Sans", sans-serif;
+}
+.card-sec {
+  max-width: 1140px;
+  margin: auto;
+  padding: 120px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 30%;
+  border: 1px solid #ececec;
+  border-radius: 10px;
+}
+
+.card img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+.card .content {
+  padding: 25px;
+}
+
+.card .content h5 {
+  font-size: 0.9rem;
+  word-spacing: 2px;
+}
+
+.card .content p {
+  font-size: 0.9rem;
+  color: #808080;
+  margin: 10px 0;
+}
+
+.card .content a {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #4a90e2;
+}
+
+.card .content a:hover {
+  text-decoration: underline;
+}
+
+.pitch {
+  max-width: 1140px;
+  margin: auto;
+  padding: 120px 0;
+  padding-top: 0;
+}
+
+.pitch * {
+  text-align: center;
+  padding: 15px;
+}
+
+.pitch .con {
+  width: 70%;
+  margin: auto;
+}
+
+.pitch .con h2 {
+  font-size: 2.35rem;
+  font-weight: 300;
+}
+
+.pitch .con p {
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: #808080;
+}
+
+.feat {
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.feat .card {
+  display: flex;
+  width: 48.5%;
+  border-radius: 6px;
+}
+
+.feat .card .card-img i {
+  padding: 50px;
+  font-size: 5rem;
+}
+
+.feat .card .card-content {
+  width: 100%;
+  padding: 25px;
+  padding-left: 0;
+}
+
+.feat .card .card-content * {
+  line-height: 30px;
+  font-size: 0.9rem;
+}
+
+.feat .card .card-content a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.feat .card .card-content a:hover {
+  text-decoration: underline;
+}
+
+.feat .active {
+  border-bottom: 4px solid #4a90e2;
+}
+
+.bg-color {
+  width: 100%;
+  background-color: #fafafa;
+  padding: 100px 0;
+  box-shadow: 0 -1px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.secondary-sec-con {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.secondary-sec-con .con {
+  width: 50%;
+  margin: auto;
+}
+
+.secondary-sec-con .con * {
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.secondary-sec-con .con h2 {
+  font-size: 2.35rem;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.secondary-sec-con .con p {
+  color: #808080;
+}
+
+.banner {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #4a90e2;
+  display: flex;
+  justify-content: center;
+}
+
+.banner h2 {
+  text-align: center;
+  font-size: 2.35rem;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+.banner:hover {
+  background-color: #609de6;
+  cursor: pointer;
+}
+
+.banner:hover h2 {
+  border-bottom: 3px solid white;
+}

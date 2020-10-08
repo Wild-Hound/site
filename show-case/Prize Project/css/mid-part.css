@@ -1,0 +1,221 @@
+.sec-2 .content-2 {
+  box-sizing: content-box;
+  text-align: center;
+  padding: 85px 100px;
+}
+
+.sec-2 .content-2 img {
+  margin-bottom: 20px;
+}
+
+.sec-2 .content-2 h2 {
+  margin-bottom: 75px;
+  font-weight: 600;
+  font-size: 27px;
+}
+
+.sec-2 .content-2 p {
+  margin-bottom: 20px;
+  line-height: 33px;
+  padding: 0 100px;
+}
+
+.sec-3 {
+  background-color: #efefef;
+}
+.content-3 {
+  box-sizing: content-box;
+  display: flex;
+  justify-content: space-around;
+  padding: 105px 0;
+}
+.x-1 {
+  width: 275px;
+}
+
+.x-1 img {
+  margin-bottom: 30px;
+}
+
+.x-1 h4 {
+  margin-bottom: 40px;
+}
+.content-4 {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.content-4 h2 {
+  font-size: 27px;
+  margin-bottom: 45px;
+}
+
+.content-4 p {
+  padding: 0 200px;
+  line-height: 33px;
+  margin-bottom: 110px;
+}
+
+.img-1 {
+  background-image: url("../images/man-1.png");
+  width: 30%;
+  height: 370px;
+  background-position: center;
+}
+
+.img-2 {
+  background-image: url("../images/man-2.png");
+  width: 30%;
+  height: 370px;
+  background-position: center;
+}
+
+.img-3 {
+  background-image: url("../images/man-3.png");
+  width: 30%;
+  height: 370px;
+  background-position: center;
+}
+.feat-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec-5 {
+  background-color: #efefef;
+}
+
+.clients {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.clients h2 {
+  margin-bottom: 70px;
+  font-weight: 600;
+  font-size: 27px;
+}
+.clients-show {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.portfolio {
+  text-align: center;
+  padding: 100px 0;
+  padding-bottom: 50px;
+}
+
+.portfolio h1 {
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 45px;
+}
+
+.portfolio p {
+  line-height: 37px;
+  padding: 0 200px;
+}
+
+.orange {
+  height: 10px;
+  width: 75px;
+  background-color: #e64a19;
+  margin: auto;
+}
+
+.sec-6 {
+  margin-top: 50px;
+}
+
+.sec-6 .container ul {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.sec-6 .container li {
+  margin: 0 30px;
+  display: inline-block;
+}
+
+.img-holder {
+  background-image: url("../images/New\ folder/screenshots.png");
+  height: 360px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.radio-btn {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0;
+}
+
+.radio-btn div {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #cccccc;
+  margin: 10px;
+}
+
+.radio-btn div:hover,
+.radio-btn .active {
+  background-color: #e64a19;
+  cursor: pointer;
+}
+
+.sec-7 {
+  background-color: #212121;
+  text-align: center;
+  color: white;
+}
+
+.sec-7 .container p {
+  font-size: 20px;
+  line-height: 38px;
+  padding: 0 170px;
+}
+
+.sec-7 .container .il {
+  font-style: italic;
+}
+.content-5 {
+  padding: 80px 0;
+}
+
+.content-5 img {
+  margin-bottom: 35px;
+}
+
+.sec-8 {
+  text-align: center;
+  padding: 85px 0;
+}
+.sec-8 .content-6 h2 {
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 55px;
+}
+
+.sec-8 .content-6 p {
+  padding: 0 200px;
+  line-height: 33px;
+}
+
+.content-7 {
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 115px;
+}
+
+.content-7 .x-2 h3 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}

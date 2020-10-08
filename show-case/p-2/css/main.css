@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --primary-color: #6785ff;
+}
+.border {
+  border-bottom: 2px solid #eee;
+  width: 100%;
+}
+
+.main .sec {
+  max-width: 1140px;
+  padding: 70px 0;
+  margin: auto;
+}
+
+.main .sec .sub {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+.sub p {
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  font-size: 0.95rem;
+  font-family: "Raleway", sans-serif;
+  background-color: rgba(103, 133, 255, 0.1);
+  color: #6785ff;
+  border-radius: 30px;
+  padding: 5px 17px;
+  margin-bottom: 40px;
+}
+
+.main .sec .sub h3 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  color: #072366;
+  font-weight: 600;
+}
+
+.card-group {
+  display: flex;
+}
+
+.main .sec .card-group .card .logo {
+  height: 100px;
+  width: 100px;
+  box-sizing: border-box;
+  font-size: 3.5rem;
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 20px 0;
+  margin: auto;
+  border-radius: 50%;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.main .sec .card-group .card p {
+  text-align: center;
+  line-height: 30px;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 20px;
+  color: #57667e;
+  font-size: 1rem;
+}
+
+.main .sec .card-group .card .go {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1c165c;
+}

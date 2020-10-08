@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+  --color-primary: #6785ff;
+}
+
+body {
+  height: 200vh;
+}
+.heading {
+  height: 80vh;
+}
+
+.heading .bg-img {
+  background-image: url(../images/h1_hero.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  font-family: "Muli", sans-serif;
+}
+
+.heading .bg-img .pitch {
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.heading .bg-img .pitch h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+.heading .bg-img .pitch p {
+  color: white;
+  font-size: 2rem;
+  padding: 50px 0;
+  font-weight: 200;
+}
+
+.heading .bg-img .pitch a {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: white;
+  padding: 20px 50px;
+  border-radius: 30px;
+}
+
+.overlay {
+  height: 100%;
+  width: 50%;
+  background-image: linear-gradient(to left, transparent, #2c3246);
+}
+
+.spacing {
+  height: 8.5vh;
+}
