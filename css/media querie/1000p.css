@@ -50,4 +50,11 @@
   .con {
     left: 60%;
   }
+
+  .con-info {
+    transform: translateX(-30%) translateY(-50%);
+  }
+  .right-text {
+    font-size: 1rem;
+  }
 }

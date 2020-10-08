@@ -22,7 +22,9 @@ function initPixi() {
   window.addEventListener("resize", function () {
     var x = document.querySelectorAll("canvas");
     x[1].setAttribute("width", document.getElementById("can").offsetWidth);
+    x[1].setAttribute("height", document.getElementById("can").offsetHeight);
     image.width = document.getElementById("can").offsetWidth;
+    image.height = document.getElementById("can").offsetHeight;
   });
 }
 

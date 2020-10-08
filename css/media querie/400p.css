@@ -73,4 +73,15 @@
     font-size: 1.45rem;
     line-height: 35px;
   }
+
+  #can {
+    height: 100vh;
+  }
+  .con-info {
+    top: 50%;
+  }
+
+  .fot-details {
+    flex-direction: column;
+  }
 }

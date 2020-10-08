@@ -184,3 +184,11 @@
 .right-text {
   margin-top: auto;
 }
+
+.big {
+  font-size: 1.3rem;
+}
+
+#can {
+  height: 80vh;
+}
